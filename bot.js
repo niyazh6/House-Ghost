@@ -9,11 +9,6 @@ client.on('message', message => {
     if (message.content === 'ping') {
     	message.reply('pong');
   	}
-else
-client.on('message', message => {
-    if (message.content === 'pling') {
-    	message.reply('plong');
-  	}
         
 });
 
