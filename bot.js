@@ -9,8 +9,8 @@ client.on('message', message => {
     if (message.content === 'ping') {
     	message.reply('pong');
   	}
-    elseif (message.content === 'hi') {
-        message.reply('hey there..Welcome!how u doin');
+    elif (message.content === 'hi') {
+        message.reply('hey..Welcome..wazzup');
     }    
 });
 
