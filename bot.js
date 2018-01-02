@@ -9,9 +9,11 @@ client.on('message', message => {
     if (message.content === 'ping') {
     	message.reply('pong');
   	}
-    elif (message.content === 'hi') {
-        message.reply('hey..Welcome..wazzup');
-    }    
+client.on('message', message => {
+    if (message.content === 'pling') {
+    	message.reply('twoink');
+  	}    
+        
 });
 
 // THIS  MUST  BE  THIS  WAY
